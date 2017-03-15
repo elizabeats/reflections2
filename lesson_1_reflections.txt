@@ -1,0 +1,44 @@
+* Using diff to compare the two files made me spot the mistake more quickly.
+Instead of having to go through the text file line by line, which is time consuming,
+"diff" spotted the mistake for me. It showed me the lines en line-numbers where the change was made.
+
+
+* How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+It spares me time. If I have to go back to a change something I made a while a go, I can just click
+the right version in history. Otherwise I would've had to save my all my edits under different names
+by manually. This costs a lot of time in the long run.
+
+
+* What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually:
+Pros: Every change will be logical, because you get to decide when the commit is made
+Cons: The commits might get to big, when you forget to save
+
+Automatically:
+Pros: You don't have to think about making commits yourself
+Cons: The commits might not be logical. You will have less feeling with your commits, because
+you aren't aware of when the changes were made.
+
+
+* Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+Git is for editing programming documents. Programming tends to have files related to each other more often.
+Google docs is for editing word documents. Mostly when you are writing a word document, it isn't
+related to another word document.
+
+
+* How can you use the commands git log and git diff to view the history of files?
+
+You can use git log to log all of the commits in the repository.
+You can use git diff to compare 2 commit-id's to each other, so you can see the changes made.
+
+* How might using version control make you more confident to make changes that could break something?
+It allows me to try more different stuff. If I make a mistake I can go back to a previous version
+anytime.
+
+*Now that you have your workspace set up, what do you want to try using Git for?
+I want to use git for becoming a a pro programmer! :-)
