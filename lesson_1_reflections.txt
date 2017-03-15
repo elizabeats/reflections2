@@ -42,3 +42,6 @@ anytime.
 
 *Now that you have your workspace set up, what do you want to try using Git for?
 I want to use git for becoming a a pro programmer! :-)
+
+* How can you use the staging area to make sure you have one commit per logical change?
+You can only add the files where you made changes.
