@@ -1,9 +1,17 @@
-* What happens when you initialize a repository? Why do you need to do it?
+1) What happens when you initialize a repository? Why do you need to do it?
 Initializing a repository lets git keep track of a commit history , stored a meta-data
 in a hidden file
 
-How is the staging area different from the working directory and the repository?
+2) How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 The staging area lets you set up files to be commited. The working direcotry is just
-a collection of files in a directory. Same goes for the repository, with additional meta-data
-added.
+a collection of files in a directory. Same goes for the repository, with additional meta-data added.
+
+3) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In case you want to try something out with your program, its nice to have something to fall back on in case you don’t want proceed it.
+In case you want to make a different version of your program, but also want to keep the other version. 
+Branches help you with this, because you can save multiple paths of your program.
+
+4) How do the diagrams help you visualize the branch structure?
+Diagrams show the branches in a visual way. This makes it easier to understand where 
+the branches split.
