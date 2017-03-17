@@ -15,3 +15,10 @@ Branches help you with this, because you can save multiple paths of your program
 4) How do the diagrams help you visualize the branch structure?
 Diagrams show the branches in a visual way. This makes it easier to understand where 
 the branches split.
+
+5) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+You create 1 branche with the commits of both. Because it makes it easier to see.
+
+6)What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: automatic merging saves time
+Cons: it can’t always merge commits, it can’t in case 2 people made changes to a line of code and it isn’t certain which line of code should be included
